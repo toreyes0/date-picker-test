@@ -1,0 +1,8 @@
+.day-ele {
+    @apply relative flex justify-center items-center w-[calc(100%/7)] h-10
+}
+
+input[type="radio"]:hover ~ .day-no,
+input[type="radio"]:checked ~ .day-no {
+    @apply text-gray-100 bg-red-800
+}
